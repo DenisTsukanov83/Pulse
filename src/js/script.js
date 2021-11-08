@@ -12,11 +12,18 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {               
                 dots: false,
-                arrows: false
+                arrows: false,
+                centerMode: true
                 }
             },
             {
                 breakpoint: 768,
+                settings: {               
+                arrows: false
+                }
+            },
+            {
+                breakpoint: 575,
                 settings: {               
                 arrows: false
                 }

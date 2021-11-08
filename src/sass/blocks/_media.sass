@@ -22,7 +22,17 @@
         .title
             &_left
                 font-size: 28px
-
+    .carusel
+        height: 400px
+        &__inner
+            width: 90%
+            img
+                width: 80%
+                margin: 0 auto
+    .catalog
+        &__content_active
+            display: flex
+            justify-content: space-evenly
 
 @media ( max-width: 767px )
     .promo
@@ -69,8 +79,24 @@
         .feed-form
             margin: 0 auto
             margin-top: 50px
-        .carusel
-
+    .carusel
+        height: 300px
+        &__inner
+            width: 80%
+            margin: 0 auto
+            img
+                width: 60%
+                margin: 0 auto
+    .catalog
+        &__tab
+            width: 150px
+            font-size: 16px
+            &_active
+                width: 150px
+        &__content
+            width: 303px
+            margin: 0 auto
+            margin-top: 50px
 
 @media ( max-width: 575px )
     .promo
@@ -103,6 +129,18 @@
             width: 240px
             input
                 width: 200px
+    .carusel
+        height: 120px
+        &__inner
+            img
+                width: 30%
+    .catalog
+        &__tabs
+            flex-direction: column
+            align-items: center
+        &__tab
+            margin-bottom: 15px
+            
 
 
 
